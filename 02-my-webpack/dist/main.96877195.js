@@ -30,11 +30,10 @@
         "./src\index.js":
         (function (module, exports,__webpack_require__) {
     eval(`// 入口文件
+
 // 引进 less文件
 __webpack_require__("./src\\test.less");
-
 const index2Obj = __webpack_require__("./src\\index2.js");
-
 alert("index文件告诉你：小伙子很帅");
 alert("index2文件告诉你：" + index2Obj.value);
 console.log('-----  入口文件打印  -------');
